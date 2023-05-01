@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: aliceblue;
+    --header-bg-color: rgba(109, 26, 153, 0.65);
+    --navmenu-bg-color: rgba(198, 175, 238, 0.33);
+    --item-bg-color: #085d2ad4;
+    --menuoption-a-hover: paleturquoise
+  }
+
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: var(--bg-color);
+    grid-template-rows: 0.05fr auto 0.1fr;
+    grid-template-areas: "header"
+                         "form"
+                         "footer"
+}
+
+
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--header-bg-color);
+}
+
+@keyframes rightleft {
+
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+
+}
+
+
+.header__logo {
+    grid-column: span 1;
+    aspect-ratio: 1/1;
+    width: 50%;
+    vertical-align: bottom;
+    animation: rightleft 700ms forwards;
+}
+
+.header__title {
+    grid-column: span 11;
+    margin: auto auto;
+} 
+
+
+.footer{
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: var(--header-bg-color);
+        position: absolute;
+    top: 95%;
+    width: 100%;
+}
+
+

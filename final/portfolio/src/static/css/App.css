@@ -1,0 +1,46 @@
+:root{
+  --app-skip-link-background-color: #fff;
+  --app-skip-link-focus-border-color: #872689;
+  --about-card-link-background-color: dodgerblue;
+  --about-card-link-color: white;
+  --about-card-border: black;
+  --about-card-background-color: azure;
+  --about-card-link-hover-color: darkgray;
+  --about-card-data-background-image1: #b4f2d4;
+  --about-card-data-background-image2: #73d2e7;
+  --about-card-data-background-color: #ecf7fe;
+  --about-card-data-box-shadow: rgba(0, 0, 0, 0.2);
+  --about-border-anim: #1685a9;
+  --accordion-accrodion-container-background-color: #f8e9d9;
+  --accordion-accordion-header-background-color: #f4c87d;
+  --accordion-accordion-header-hover-background-color: #FFEAB7;
+  --accordion-accordion-title-color: #da5248;
+  --education-panel-div-hover-box-shadow: grey;
+  --education-panel-left-right-border: black;
+}
+
+#root{
+  min-height: 100%;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  width: 100%;
+
+}
+
+.skip__link {
+  position: absolute;
+  left: -110%;
+}
+
+.skip__link:focus {
+  left: 40%;
+  padding: 0.2rem;
+  background-color: var(--app-skip-link-background-color);
+  border: 0.1rem solid var(--app-skip-link-focus-border-color);
+  border-radius: 0.4rem;
+}
+

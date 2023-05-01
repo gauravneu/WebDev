@@ -1,0 +1,17 @@
+.header{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: "logo title";
+
+}
+
+.header__logo{
+    grid-area: 'logo';
+    aspect-ratio: 1/1;
+    width: 8rem;
+}
+
+
+.header__title{
+    grid-area: 'title';
+}

@@ -1,0 +1,117 @@
+.navigation__list {
+    display: none;
+}
+
+.navigation__list--open {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    list-style: none;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.navigation__link {
+    display: revert;
+    color: darkslategray;
+    font-size: 2rem;
+    font-weight: initial;
+    font-style: italic;
+    text-decoration: none;
+    padding: 0.2rem 0rem;
+    border: none;
+    background-color: inherit;
+}
+
+.navigation__link:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.navigation__button {
+    min-width: 3rem;
+    min-height: 3rem;
+}
+
+.navigation__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigation__item ul {
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.navigation__item__li {
+    width: 100%;
+}
+
+
+.navigation__dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    background: aliceblue;
+    color: rgb(1, 23, 23);
+    width: 90%;
+    text-decoration: none;
+    font-weight: bolder;
+    border: none;
+}
+
+.navigation__dropdown:hover,
+.navigation__dropdown:focus-within {
+    background-color: rgb(16, 117, 157);
+}
+
+
+
+.navigation__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navigation__item:hover ul,
+.navigation__item:focus-within ul {
+    max-height: 29rem;
+}
+
+@media screen and (min-width: 44rem) {
+
+    .navigation__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        background-color: powderblue;
+    }
+
+    .navigation__list--open{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-around;
+        background-color: powderblue;
+    }
+
+    .navigation__button {
+        display: none;
+    }
+
+    .navigation__item ul {
+        width: 20%;
+        right: 1px;
+    }
+
+    .navigation__item__li {
+        width: 100%;
+    }
+}

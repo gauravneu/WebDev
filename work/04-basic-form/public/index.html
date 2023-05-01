@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+<body>
+        <header class="header">
+            <img class="headerImage" src="http://www.placekitten.com/150/150?image=58" alt="Header Cat" />
+            <h1 class="headerTitle">Basic Form Header</h1>
+        </header>
+        <main class="main">
+            <div class="formDiv">
+                <form class="form" action="/submit" method="POST">
+                    <label for="name1" class="label">
+                        <span>Name:</span>
+                    </label>
+                        <input id="name1" class="input" type="text" name="name" required/>
+
+                    <label for="email" class="label">
+                        <span>Email:</span>
+                    </label>
+                        <input id="email" class="input" type="email" name="email" required/>
+                    <label for="tier" class="label">
+                        <span>Tier:</span>
+                    </label>
+                        <select id="tier" class="input" name="tier" required>
+                            <option value="">Please select</option>
+                            <option value="1">Silver Tier</option>
+                            <option value="2">Gold Tier</option>
+                            <option value="3">Platinum Tier</option>
+                        </select>
+                    <label for="chckbox" class="label">
+                        <span>Do you want us to send you annoying emails?</span>
+                    </label>
+                        <input id="chckbox" class="input" type="checkbox" name="annoy_me" checked/>
+
+                    <button class="button" type="submit">Register</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            No Privacy is best Privacy: <a href="privacy.html">Privacy Policy</a>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+.content{
+    margin: 3rem;
+    padding:1 rem;
+}
+
+.content__heading{
+    font-size: larger;
+    font-variant: small-caps;
+}
+
+.content__text{
+    font-style: italic;
+}

@@ -1,0 +1,23 @@
+.global-nav__list{
+    display: none;
+    justify-content: space-around;
+}
+
+.global-nav__list--open{
+    display: flex;
+}
+
+.global-nav__item{
+    list-style: none;
+}
+
+@media(min-width: 44rem) {
+    .global-nav__toggle{
+        display: none;
+    }
+    .global-nav__list{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

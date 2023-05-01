@@ -1,0 +1,99 @@
+.panel{
+    margin-top: 2rem;
+}
+
+.panel div:hover {
+    box-shadow:  0.125rem 0.125rem 0.375rem 0.375rem var(--education-panel-div-hover-box-shadow);
+}
+
+.panel__title {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.panel__text {
+    margin: 0.5rem;
+}
+
+.panel__left, .panel__right {
+    background-color: cornsilk;
+    border: 0.1rem solid var(--education-panel-left-right-border);
+    margin-bottom: 1rem;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+}
+
+.panel__pic__right {
+    float: right;
+    aspect-ratio: 1/1;
+    width: 12rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.panel__pic__left {
+    float: left;
+    aspect-ratio: 1/1;
+    width: 12rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 44rem){
+    
+    .panel__left {
+        grid-row: span 6;
+        display: grid;
+        grid-template-areas: "pic-left title"
+                            "pic-left data";
+        grid-template-columns: 0.2fr 1fr;
+        border-radius: 1.5rem;
+        margin: 1.2rem;
+        border: 1px solid var(--education-panel-left-right-border);
+    }
+
+    .panel__right {
+        grid-row: span 6;
+        display: grid;
+        grid-template-areas: "title pic-right"
+                            "data pic-right";
+        grid-template-columns: 1fr 0.2fr;
+        border-radius: 1rem;
+        margin: 1.2rem;
+        border: 0.12rem solid var(--education-panel-left-right-border);
+    }
+    
+    .panel__title {
+        grid-area: title;
+        text-align: center;   
+    }
+    
+    .panel__text {
+        grid-area: data;
+    }
+    
+    .panel__pic__right {
+        grid-area: pic-right;
+        aspect-ratio: 1/1;
+        margin-top: 1rem;
+        padding-right: 0.5rem;
+        width: 12rem;
+    }
+    
+    .panel__pic__left {
+        grid-area: pic-left;
+        aspect-ratio: 1/1;
+        margin-top: 1rem;
+        padding-left: 0.5rem;
+        width: 12rem;
+    }
+    
+}

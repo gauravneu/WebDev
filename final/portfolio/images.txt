@@ -1,0 +1,42 @@
+logo.jpg : https://unsplash.com/photos/lXYkA5LCD0U
+avatar1: https://unsplash.com/photos/ONJM0-j6XM4
+footer: https://unsplash.com/photos/N8yoH-dj4k8
+mail: https://unsplash.com/photos/AwmCuTXL97Q
+coder: https://unsplash.com/photos/9SoCnyQmkzI
+background: https://unsplash.com/photos/5hvn-2WW6rY
+history: https://unsplash.com/photos/9T346Ij4kGk
+today: https://unsplash.com/photos/6tCiSN8LX7w
+hobby: https://unsplash.com/photos/IEhdpoA9zrY
+skills: https://unsplash.com/photos/siNDDi9RpVY
+NIT: Clicked by me
+NEU: https://unsplash.com/photos/W9hjnF3M4QM
+HCL1: https://unsplash.com/photos/XJXWbfSo2f0
+HCL2: https://unsplash.com/photos/xrVDYZRGdw4
+HCL3: https://unsplash.com/photos/PNbDkQ2DDgM
+HCL4: https://unsplash.com/photos/AaEQmoufHLk
+HCL5: https://unsplash.com/photos/QUHuwyNgSA0
+HCL6: https://unsplash.com/photos/1LLh8k2_YFk
+HCL7: https://unsplash.com/photos/8OyKWQgBsKQ
+Infosys1: https://unsplash.com/photos/BfrQnKBulYQ
+Infosys2: https://unsplash.com/photos/jG8nlwLRZTM
+Infosys3: https://unsplash.com/photos/iar-afB0QQw
+Infosys4: https://unsplash.com/photos/MgtHZ4zlC1U
+Infosys5: https://unsplash.com/photos/NPlv2pkYoUA
+Infosys6: https://unsplash.com/photos/uxSKI3u-MOg
+Infosys7: https://unsplash.com/photos/LJ9KY8pIH3E
+Insurance1: https://unsplash.com/photos/TkZYCXmrKK4
+Insurance2: https://unsplash.com/photos/oZ61KFUQsus
+Insurance3: https://unsplash.com/photos/BMnhuwFYr7w
+Insurance4: https://unsplash.com/photos/FGXqbqbGt5o
+Insurance5: https://unsplash.com/photos/eYpcLDXHVb0
+Insurance6: https://unsplash.com/photos/u2Ru4QBXA5Q
+Insurance7: https://unsplash.com/photos/cvBBO4PzWPg
+Disaster1: https://unsplash.com/photos/MPKQiDpMyqU
+Disaster2: https://unsplash.com/photos/cYyqhdbJ9TI
+Disaster3: https://unsplash.com/photos/4hbJ-eymZ1o
+Disaster4: https://unsplash.com/photos/70Rir5vB96U
+Disaster5: https://unsplash.com/photos/6pflEeSzGUo
+Disaster6: https://unsplash.com/photos/jG8nlwLRZTM
+Disaster7: https://unsplash.com/photos/JNz9bQD3Oio
+School1 : https://unsplash.com/photos/1iuxWsIZ6ko
+School2 : https://unsplash.com/photos/dGxOgeXAXm8

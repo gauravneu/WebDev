@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  gap: 3rem;
+  background-color: lime;
+}
+
+.button{
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: cornsilk;
+}
+

@@ -1,0 +1,19 @@
+.button{
+    background-color: rgb(89, 200, 89);
+    border-radius: 0.3rem;
+    }
+
+.button-link{
+    background: none;
+    border: none;
+    color: rgb(0, 102, 153);
+    text-decoration: bisque;
+    text-decoration: underline;
+    cursor: grabbing;
+}
+
+
+.content{
+    text-decoration: wavy;
+    font-size: 3rem;
+}

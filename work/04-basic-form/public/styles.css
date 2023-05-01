@@ -1,0 +1,116 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: chartreuse;
+    --header-bg-color: burlywood;
+}
+
+body,html{
+    margin: 0;
+    height: 100%;
+    background-color: var(--bg-color);
+    font-style: italic;
+}
+
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+.header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background-color: var(--header-bg-color);
+}
+
+headerImage{
+    grid-column: 1;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+
+.headerTitle{
+    grid-column:span 11;
+    display: flex;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.main{
+    grid-area: main;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.formDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+.form{
+    border: 1px solid black;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+}
+
+
+
+button{
+    height: 2rem;
+    color: azure;
+    background: darkkhaki;
+    border-radius: 0.5rem;
+}
+
+button:active{
+    background: magenta;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: firebrick;
+    text-align: center;
+}
+
+@media (min-width: 50rem) {
+    .form{
+        grid-template-areas:
+    "label input";
+    }
+
+    .label{
+        margin-bottom: 1rem;
+    }
+    .input{
+        margin-bottom: 1rem;
+    }
+
+    .button{
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+    .footer{
+        grid-area: footer;
+    }
+
+
+}

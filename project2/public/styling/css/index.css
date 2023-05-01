@@ -1,0 +1,91 @@
+.main {
+    grid-area: main;
+}
+
+.main div:hover {
+    box-shadow: 0.1rem 0.1rem gray;
+}
+
+.main__cardTitle {
+    text-align: center;
+}
+
+.main__cardText {
+    margin: 0.3rem;
+}
+
+.main__cardTwo, .main__cardOne {
+    background-color: var(--skiplink-focus-color);
+    border: 0.1rem solid var(--gray-color);
+    self-align: center;
+    margin: 0.5rem;
+}
+
+.main__cardOnePic {
+    float: right;
+    aspect-ratio: 1/1;
+    width: 12rem;
+    border-radius: 1.5rem;
+    margin: 0.2rem;
+}
+
+.main__cardTwoPic {
+    float: left;
+    aspect-ratio: 1/1;
+    width: 12rem;
+    border-radius: 1.5rem;
+    margin: 0.2rem;
+}
+
+@media screen and (min-width: 44rem) {
+
+    .main__cardTwo {
+        grid-row: span 5;
+        display: grid;
+        grid-template-areas: "pic__left title"
+                            "pic__left text";
+        grid-template-columns: 0.4fr 0.8fr;
+        border-radius: 2rem;
+        margin: 0.5rem;
+        border: 0.05rem dotted var(--nav-li-color);
+        align-self: center;
+        background-color: var(--skiplink-focus-color);
+    }
+
+    .main__cardOne {
+        grid-row: span 5;
+        display: grid;
+        grid-template-areas: "topic pic__right"
+                            "text pic__right";
+        grid-template-columns: 0.8fr 0.4fr;
+        border-radius: 2rem;
+        margin: 0.5rem;
+        border: 0.05rem dotted var(--nav-li-color);
+        align-self: center;
+        background-color: var(--skiplink-focus-color);
+    }
+
+    .main__cardTitle {
+        grid-area: topic;
+        align-self: center;
+    }
+
+    .main__cardText {
+        grid-area: text;
+    }
+
+    .main__cardOnePic {
+        grid-area: pic__right;
+        aspect-ratio: 1/1;
+        width: 80%;
+        align-self: center;
+    }
+
+    .main__cardTwoPic {
+        grid-area: pic__left;
+        aspect-ratio: 1/1;
+        width: 80%;
+        align-self: center;
+    }
+
+}

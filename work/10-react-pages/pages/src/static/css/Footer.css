@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--bg-banner-color);
+}
+
+.footer__place-list{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 0.5rem;
+}
+
+.footer__place-item{
+    list-style: none;
+
+}
+
+.footer__place-link:hover{
+    background-color: lime;
+}

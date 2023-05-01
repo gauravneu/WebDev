@@ -1,0 +1,6 @@
+.main{
+    background-color: rgb(162, 236, 207);
+    display: grid;
+    flex-direction: row;
+}
+

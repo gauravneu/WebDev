@@ -1,0 +1,79 @@
+:root{
+    --alpha-card-color: #e67132;
+    --beta-card-color: rgba(44, 192, 165, 0.89);
+    --gamma-card-color: rgba(65, 85, 187, 0.83);
+    --theta-card-color: #8041bb;
+    --button-color: burlywood;
+    --card-button-color: #F7FAFA;
+}
+
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+.cardalpha {
+    background-color: var(--alpha-card-color);
+}
+
+.cardbeta {
+    background-color: var(--beta-card-color);
+}
+
+.cardgamma {
+    background-color: var(--gamma-card-color);
+}
+
+.cardtheta {
+    background-color: var(--theta-card-color);
+}
+
+.cardlogo {
+    width: 75%;
+    aspect-ratio: 1/1;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.main div {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 2.5rem;
+    margin: 0.6rem 1rem;
+}
+
+.cardheading {
+    font-family: sans-serif;
+    margin-top: 0.3rem;
+   }
+
+.cardbutton {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--button-color);
+    color: var(--card-button-color);
+    text-decoration: none;
+}
+
+.cardbutton:hover{
+    transform: scale(1.5);
+}
+
+.cardtitle {
+    text-align: center;
+}
+
+.cardtext {
+    padding: 0.25rem 2rem;
+}
+
+@media screen and (max-width: 50rem){
+    .main div {
+        grid-column: span 12;
+    }
+}

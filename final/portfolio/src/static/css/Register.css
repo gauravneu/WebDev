@@ -1,0 +1,73 @@
+ .form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 3.2rem auto;
+   max-width: 40rem;
+   border: 1px solid green;
+   border-radius: 2rem;
+ }
+ .form__title{
+  color:rgb(5, 5, 34);
+  font-size: x-large;
+ }
+
+ .form__element {
+   display: flex;
+   flex-direction: column;
+   margin: 1.5rem;
+   width: 90%;
+ }
+
+
+
+ .form__label {
+   font-size: 1.2rem;
+   color: teal;
+
+ }
+
+
+
+ .form__input {
+   border: 2px solid #ddd;
+   border-radius: 0.4rem;
+   font-size: 1rem;
+   padding: 0.7rem;
+   width: 85%;
+ }
+
+ .form__chckbox {
+   display: flex;
+   align-items: center;
+ }
+
+ .form__chckbox span {
+   font-size: 1.5rem;
+   margin-right: 0.8rem;
+ }
+
+ .form__button {
+   margin: 1rem;
+ }
+
+ .form__link {
+   text-decoration: none;
+   background-color: rgb(54, 134, 146);
+   color: white;
+   border: 0.1rem solid black;
+   border-radius: 0.5rem;
+ }
+
+ .form__error {
+   border: none;
+   color: red;
+ }
+
+ .form__submitted {
+   color: Blue;
+   font-size: large;
+   border: none;
+
+ }

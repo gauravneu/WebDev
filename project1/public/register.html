@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="styling/css/generic.css"/>
+    <link rel="stylesheet" href="styling/css/form.css"/>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body class="body">
+
+<header class="header">
+    <a href="index.html"><img class="headerLogo" src="styling/images/logo.jpg" alt=""></a>
+    <h1 class="headertitle">Elephant Kingdom</h1>
+</header>
+<nav class="navmenu">
+    <h2 class="navtitle">Register</h2>
+    <ul class="menu">
+        <li class="menuoption">
+            <a href="index.html" class="optionLink">Trending Pages</a>
+            <div class="menuoption-item">
+                <a href="index.html">Elephants In Wild</a>
+                <a href="index.html">Elephants In Captivity</a>
+            </div>
+        </li>
+        <li class="menuoption">
+            <a href="about.html" class="optionLink">About Elephants</a>
+            <div class="menuoption-item">
+                <a href="about.html">Kids</a>
+                <a href="about.html">Adult</a>
+            </div>
+        </li>
+        <li class="menuoption">
+            <a href="register.html" class="optionLink">User</a>
+            <div class="menuoption-item">
+                <a href="register.html">Log in</a>
+                <a href="register.html">Create Profile</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<main class="main">
+    <div class="formDiv">
+        <form class="form" action="/submit" method="POST">
+            <label for="name1" class="label">
+                <span>Name:</span>
+            </label>
+            <input id="name1" class="input" type="text" name="name" required/>
+
+            <label for="email" class="label">
+                <span>Email:</span>
+            </label>
+            <input id="email" class="input" type="email" name="email" required/>
+            <label for="tier" class="label">
+                <span>Tier:</span>
+            </label>
+            <select id="tier" class="input" name="tier" required>
+                <option value="">Please select</option>
+                <option value="1">Silver Tier</option>
+                <option value="2">Gold Tier</option>
+                <option value="3">Platinum Tier</option>
+            </select>
+            <label for="chckbox" class="label">
+                <span>Do you want us to send you annoying emails?</span>
+            </label>
+            <input id="chckbox" class="input" type="checkbox" name="annoy_me" checked/>
+
+            <button class="button" type="submit">Register</button>
+        </form>
+    </div>
+</main>
+<footer class="footer">
+    For absolutely no Privacy :  <a href="privacy.html">Privacy Policy</a>
+</footer>
+</div>
+</body>
+</html>

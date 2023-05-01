@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="styling/css/generic.css" rel="stylesheet"/>
+    <link href="styling/css/form.css" rel="stylesheet"/>
+    <script defer src="styling/js/register.js" rel="stylesheet"></script>
+    <meta content="width=device-width" name="viewport">
+</head>
+<body>
+<div id="root">
+    <header class="header">
+        <a href="register.html"><img alt="" class="header__logo" src="styling/images/logo.jpg"></a>
+        <h1 class="header__title">Elephant Kingdom</h1>
+    </header>
+    <!-- <main class="main"> -->
+<!--        <div class="formDiv">-->
+            <form action="/register" class ="form" method="POST">
+                <div class="form__element">
+                    <div class="form__name--err"></div>
+                    <label class="label" for="name1">
+                        <span>Name:</span>
+                    </label>
+                    <input class="form__nameInput" id="name1" name="name"  type="text"/>
+                </div>
+
+                <div class="form__element">
+                    <div class="form__email--err"></div>
+                    <label class="form__label" for="email1">
+                        <span>Email:</span>
+                    </label>
+                    <input class="form__emailInput" id="email1" name="email1"  type="text"/>
+                </div>
+
+                <div class="form__element">
+                    <div class="form__emailRepeat--err"></div>
+                    <label class="form__label" for="email2">
+                        <span>Confirm Email:</span>
+                    </label>
+                    <input class="form__emailRepeatInput" id="email2" name="email2" type="text"/>
+                </div>
+
+
+                <div class="form__element">
+                    <div class="form__tierSelect--err"></div>
+                    <label class="form__label" for="tier">
+                        <span>Tier:</span>
+                    </label>
+                    <select class="form__tierSelect" id="tier" name="tier" required>
+                        <option value="0">Please select</option>
+                        <option value="1">Silver Tier</option>
+                        <option value="2">Gold Tier</option>
+                        <option value="3">Platinum Tier</option>
+                    </select>
+                </div>
+
+                <div class="form__chckbox">
+                    <label class="form__label" for="chckbox">
+                        <span>wants-spam</span>
+                    </label>
+                    <input checked class="input" id="chckbox" name="annoy_me" type="checkbox"/>
+                </div>
+
+                <div class="form__button">
+                    <button class="button" type="form__submit">Register</button>
+                </div>
+
+            </form>
+<!--        </div>-->
+    <!-- </main> -->
+    <footer class="footer">
+        For absolutely no Privacy : <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Famous Elephants</title>
+    <link href="styling/css/elephants.css" rel="stylesheet"/>
+    <link href="styling/css/icon.css" rel="stylesheet"/>
+    <link href="styling/css/generic.css" rel="stylesheet"/>
+    <script defer src="styling/js/generic.js"></script>
+    <meta content="width=device-width" name="viewport">
+</head>
+
+<body>
+<div id="root">
+    <a aria-label="Skip to main content" class="skip__link" href="#main"
+       tabindex="1">Skip to the main content</a>
+    <header class="header">
+        <a href="index.html"><img alt="Elephant Logo" aria-label="It is Elephant Logo"
+                                  class="header__logo" src="styling/images/logo.jpg"></a>
+        <h1 class="header__title">Elephants on the Internet</h1>
+        <div class="header__icon">
+            <i aria-label="It is menu icon" class="mobile__menu" tabindex="2"></i>
+        </div>
+        <div aria-label="It is mobile menu" class="nav__dropdowncontent">
+            <a href="index.html">Home</a>
+            <a href="elephants.html">Famous Ele</a>
+            <a href="index.html">Ele Events</a>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul aria-label="laptop menu" class="nav__menu">
+            <li class="nav__dropdown">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav__dropdown">
+                <a href="elephants.html">Famous Ele</a>
+            </li>
+            <li class="nav__dropdown">
+                <a href="index.html">Ele Events</a></li>
+        </ul>
+    </nav>
+    <main aria-label="main content" class="main" id="main">
+        <div class="maincard">
+            <h2 class="maincard__title">Jorts</h2>
+            <img alt="elephant walking in mountains" class="maincard__pic" src="styling/images/elephant1.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="maincard">
+            <h2 class="maincard__title">Jean</h2>
+            <img alt="elephant playing with mud" class="maincard__pic" src="styling/images/elephant2.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="maincard">
+            <h2 class="maincard__title">Maru</h2>
+            <img alt="elephant walking in mountains" class="maincard__pic" src="styling/images/elephant1.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="maincard">
+            <h2 class="maincard__title">Nyan</h2>
+            <img alt="elephant playing with mud" class="maincard__pic" src="styling/images/elephant2.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="maincard">
+            <h2 class="maincard__title">Grumpy</h2>
+            <img alt="elephant group walking together" class="maincard__pic" src="styling/images/elephant3.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="maincard">
+            <h2 class="maincard__title">Lili</h2>
+            <img alt="elephant staring in wild" class="maincard__pic" src="styling/images/elephant4.jpg">
+            <div class="maincard__text">Duis aute irure dolor in  cillum
+                dolore eu fugiat nulla
+                <button class="maincard__btn">Subscribe</button>
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <dialog aria-label="subscribe form" class="subscribe">
+            <p class="subscribe__title">Subscribe to the Latest Elephants!</p>
+            <form action="/subscribe" class="subscribe__form" method="POST">
+                <div aria-label="email item" class="subscribe__email">
+                    <label>
+                        <span>Email:</span><span class="subscribe__textitalic "> * required</span>
+                        <input class="subscribe__emailinput" name="email" placeholder="bos@webdev.com"/>
+                    </label>
+                    <span class="subscribe__emailexc"></span>
+                </div>
+                <div aria-label="confirm email item" class="subscribe__confirm">
+                    <label>
+                        <span>Confirm Email:</span><span class="subscribe__textitalic "> * required</span>
+                        <input class="subscribe__confirminput" name="confirm" placeholder="Please reenter your email"/>
+                    </label>
+                    <span class="subscribe__confirmexc"></span>
+                </div>
+                <div class="subscribe__button">
+                    <button aria-label="submit button" class="subscribe__submit" type="submit">Subscribe</button>
+                    <button aria-label="close button" class="subscribe__close" type="button">Close</button>
+                </div>
+            </form>
+        </dialog>
+    </main>
+    <footer class="footer">
+        Privacy What? <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</div>
+</body>
+</html>

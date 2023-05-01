@@ -1,0 +1,36 @@
+.main {
+    grid-area: main;
+    margin: 6rem;
+}
+
+.intro{
+    font-family: -apple-system;
+    text-align: center;
+
+}
+
+.box{
+    padding: 0 25rem 0 25rem;
+}
+
+.span{
+    padding: 2rem;
+    border-top-style: ridge;
+}
+
+h2{
+    transition: ease-in;
+
+}
+
+.para{
+    font-family: "Apple Braille";
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 50rem){
+    .box{
+        padding: 0 1rem 0 1rem;
+    }
+}

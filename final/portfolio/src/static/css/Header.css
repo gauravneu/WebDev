@@ -1,0 +1,41 @@
+.header{ 
+    display: grid;
+    grid-template-areas:
+        "headerLogo headerTitle"
+        "headerNav headerNav"
+    ;
+    grid-template-columns: auto 1fr;
+    background-color: powderblue;
+}
+.header__logo {
+    grid-area: headerLogo;
+    aspect-ratio: 1/1;
+    width: 6rem;
+    animation: rightleft 1s ease-in;  
+    
+}
+
+@keyframes rightleft {
+
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+
+}
+
+.header__title {
+    grid-area: headerTitle;
+    color: black;
+    text-align: center;
+}
+
+.header__nav {
+    grid-area: headerNav;
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
